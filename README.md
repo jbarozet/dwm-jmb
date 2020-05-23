@@ -65,12 +65,6 @@ If you use a login manager (like lightdm), make sure that you have a file called
 	Icon=dwm
 	Type=XSession
 
-
-# Configuring dwm-distrotube
-
-If you installed dwm-distrotube-git using the AUR, then the source code can be found in /opt/dwm-distrotube-git.  If you downloaded the source and built dwm-distrotube yourself, then the source in the directory that you downloaded.  The configuration of dwm-distrotube is done by editng the config.h and (re)compiling the source code.  
-
-	sudo make install
 	
 # Adding an autostart file
 
@@ -83,4 +77,9 @@ You will need to create this file and the directory that it is located.  An exam
 	nitrogen --restore &
 	dwmblocks &
 	
-The example autostart.sh above launches the compton compositor, sets the wallpaper with nitrogen and launches dwmblocks to add some widgets to our dwm panel.  Obviously, you would need to install compton and nitrogen to use those programs in your autostart.  And you would need to install [dwmblocks](https://gitlab.com/dwt1/dotfiles/-/tree/master/dwmblocks) to use it.  To use my dwmblocks, you also need to download the scripts found [here](https://gitlab.com/dwt1/dotfiles/-/tree/master/.local%2Fbin).
+The example autostart.sh above:
+- launches the compton compositor
+- sets the wallpaper with nitrogen 
+-  launches dwmblocks to add some widgets to our dwm panel.  
+
+Obviously, you would need to install compton and nitrogen to use those programs in your autostart.  And you would need to install [dwmblocks](https://gitlab.com/jbarozet/dotfiles/dwmblocks-jmb) to use it.  To use my dwmblocks, you also need to download the scripts found [here](https://gitlab.com/jbarozet/dotfiles/-/tree/master/.local%2Fbin).
