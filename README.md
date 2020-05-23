@@ -2,6 +2,7 @@
 
 Dwm is an extremely fast, small, and dynamic window manager for X. Dwm is created by the good folks at [suckless.org](https://suckless.org).  This is my personal build of dwm.  I used a number of patches in this build to make dwm more "sensible" rather than "suckless."  The patches I added to this build include:
 + alpha (for transparency)
++ autostart (This patch will make dwm run ~/.dwm/autostart.sh)
 + attachaside (new clients appear in the stack rather than as the master)
 + cyclelayouts (cycles through the available layouts)
 + gridmode (adding a grid layout)
